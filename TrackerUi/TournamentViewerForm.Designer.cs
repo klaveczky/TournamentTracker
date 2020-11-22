@@ -1,7 +1,7 @@
 ﻿
 namespace TrackerUi
 {
-    partial class TournamentViewer
+    partial class TournamentViewerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -48,12 +48,12 @@ namespace TrackerUi
             // headerLabel
             // 
             this.headerLabel.AutoSize = true;
-            this.headerLabel.Font = new System.Drawing.Font("Segoe UI Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headerLabel.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.headerLabel.Location = new System.Drawing.Point(33, 33);
             this.headerLabel.Name = "headerLabel";
             this.headerLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.headerLabel.Size = new System.Drawing.Size(214, 50);
+            this.headerLabel.Size = new System.Drawing.Size(226, 50);
             this.headerLabel.TabIndex = 0;
             this.headerLabel.Text = "Tournament:";
             this.headerLabel.Click += new System.EventHandler(this.headerLabel_Click);
@@ -192,7 +192,7 @@ namespace TrackerUi
             this.scoreButton.UseVisualStyleBackColor = true;
             this.scoreButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // TournamentViewer
+            // TournamentViewerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -214,7 +214,7 @@ namespace TrackerUi
             this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
-            this.Name = "TournamentViewer";
+            this.Name = "TournamentViewerForm";
             this.Text = "Tournament Viewer";
             this.Load += new System.EventHandler(this.TournamentViewer_Load);
             this.ResumeLayout(false);
